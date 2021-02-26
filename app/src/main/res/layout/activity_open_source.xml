@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/openToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/open_algolia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Algolia" />
+        <TextView
+            android:id="@+id/open_firebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Firebase" />
+        <TextView
+            android:id="@+id/open_flexbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flexbox Layout" />
+        <TextView
+            android:id="@+id/open_glide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glide" />
+        <TextView
+            android:id="@+id/open_gmarket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gmarket sans ttf" />
+        <TextView
+            android:id="@+id/open_inko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inko" />
+        <TextView
+            android:id="@+id/open_lottie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lottie" />
+        <TextView
+            android:id="@+id/open_dotindi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Material View Pager Dots Indicator" />
+        <TextView
+            android:id="@+id/open_roundedImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RoundedImageView" />
+        <TextView
+            android:id="@+id/open_shimmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shimmer" />
+    </LinearLayout>
+</LinearLayout>

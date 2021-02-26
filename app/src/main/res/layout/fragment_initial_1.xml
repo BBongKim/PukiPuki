@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/mainImage"
+            android:layout_width="wrap_content"
+            android:layout_height="384dp"
+            android:src="@drawable/ic_eating_reading" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal|center">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="뉴스를 보는 가장 간단한 방법"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/startText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="지금 바로 시작해보세요!"
+                android:textColor="@color/default_grey"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextInputLayoutStyle"
+            app:boxBackgroundColor="@color/white">
+            <com.bong.simplynews.ClearEditText
+                android:id="@+id/nameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="이름이나 호칭을 알려주세요"
+                android:inputType="textPersonName"
+                android:theme="@style/EditTextStyle" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:orientation="horizontal"
+                   android:gravity="center_vertical">
+
+                   <TextView
+                       android:id="@+id/textView3"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="이전"
+                       android:textColor="@color/mainGreen"
+                       android:textSize="16sp"
+                       android:layout_marginLeft="3dp"/>
+
+                   <View
+                       android:id="@+id/view2"
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_weight="1" />
+
+                   <Button
+                       android:id="@+id/nameNextButton"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:text="다음"
+                       android:textSize="16sp"/>
+
+
+
+                </LinearLayout>
+                    -->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/latestNewsTab"
+        android:icon="@drawable/ic_fi_rr_home"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="홈"/>
+    <item
+        android:id="@+id/userNewsTab"
+        android:icon="@drawable/ic_fi_rr_bookmark"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="키워드뉴스"/>
+    <item
+        android:id="@+id/moreTab"
+        android:icon="@drawable/ic_fi_rr_menu_dots"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="더보기"/>
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity.InitialMainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logo_name"
+            android:textColor="@color/mainGreen"
+            android:fontFamily="@font/logo_font"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:elevation="20dp"
+            android:textFontWeight="700"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp"/>
+    </FrameLayout>
+
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/worm_dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:dotsColor="@color/mainGreen"
+        app:dotsCornerRadius="6dp"
+        app:dotsSize="10dp"
+        app:dotsSpacing="4dp"
+        app:dotsStrokeColor="@color/mainGreen"
+        app:dotsStrokeWidth="2dp"></com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_start_button"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="시작하기" />
+
+</LinearLayout>
